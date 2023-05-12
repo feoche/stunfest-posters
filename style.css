@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  place-items: center;
+  place-content: stretch;
+  justify-content: center;
+  background: black;
+}
+.container img {
+  position: relative;
+  width: 475px;
+  aspect-ratio: 7/10;
+}
